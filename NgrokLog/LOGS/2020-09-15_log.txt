@@ -1,0 +1,127 @@
+2020-09-15 16:38:39.3439 INFO Information is logged
+2020-09-15 16:38:39.4822 INFO Request {URL} -> GET localhost:5001 /weatherforecast 
+2020-09-15 16:38:39.5150 INFO Request {More info} {Protocol} -> HTTP/2, {ContentType} ->  
+2020-09-15 16:38:39.5514 DEBUG HEATHER -> Cache-Control no-cache
+2020-09-15 16:38:39.5807 DEBUG HEATHER -> Pragma no-cache
+2020-09-15 16:38:39.6091 DEBUG HEATHER -> Accept text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+2020-09-15 16:38:39.6391 DEBUG HEATHER -> Accept-Encoding gzip, deflate, br
+2020-09-15 16:38:39.6676 DEBUG HEATHER -> Accept-Language en-US,en;q=0.9
+2020-09-15 16:38:39.6985 DEBUG HEATHER -> Host localhost:5001
+2020-09-15 16:38:39.7314 DEBUG HEATHER -> User-Agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36
+2020-09-15 16:38:39.7656 DEBUG HEATHER -> Upgrade-Insecure-Requests 1
+2020-09-15 16:38:39.7979 DEBUG HEATHER -> :method GET
+2020-09-15 16:38:39.8274 DEBUG HEATHER -> :authority localhost:5001
+2020-09-15 16:38:39.8558 DEBUG HEATHER -> :scheme https
+2020-09-15 16:38:39.8838 DEBUG HEATHER -> :path /weatherforecast
+2020-09-15 16:38:39.9145 DEBUG HEATHER -> sec-fetch-site none
+2020-09-15 16:38:39.9450 DEBUG HEATHER -> sec-fetch-mode navigate
+2020-09-15 16:38:39.9768 DEBUG HEATHER -> sec-fetch-user ?1
+2020-09-15 16:38:40.0084 DEBUG HEATHER -> sec-fetch-dest document
+2020-09-15 16:38:40.0400 INFO {RequestBody} -> 
+2020-09-15 16:38:42.4493 INFO Request {URL} -> GET localhost:5001 /favicon.ico 
+2020-09-15 16:38:42.4805 INFO Request {More info} {Protocol} -> HTTP/2, {ContentType} ->  
+2020-09-15 16:38:42.5108 DEBUG HEATHER -> Cache-Control no-cache
+2020-09-15 16:38:42.5408 DEBUG HEATHER -> Pragma no-cache
+2020-09-15 16:38:42.5712 DEBUG HEATHER -> Accept image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+2020-09-15 16:38:42.6008 DEBUG HEATHER -> Accept-Encoding gzip, deflate, br
+2020-09-15 16:38:42.6301 DEBUG HEATHER -> Accept-Language en-US,en;q=0.9
+2020-09-15 16:38:42.6597 DEBUG HEATHER -> Host localhost:5001
+2020-09-15 16:38:42.6890 DEBUG HEATHER -> Referer https://localhost:5001/weatherforecast
+2020-09-15 16:38:42.7174 DEBUG HEATHER -> User-Agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36
+2020-09-15 16:38:42.7467 DEBUG HEATHER -> :method GET
+2020-09-15 16:38:42.7764 DEBUG HEATHER -> :authority localhost:5001
+2020-09-15 16:38:42.8060 DEBUG HEATHER -> :scheme https
+2020-09-15 16:38:42.8344 DEBUG HEATHER -> :path /favicon.ico
+2020-09-15 16:38:42.8644 DEBUG HEATHER -> sec-fetch-site same-origin
+2020-09-15 16:38:42.8952 DEBUG HEATHER -> sec-fetch-mode no-cors
+2020-09-15 16:38:42.9266 DEBUG HEATHER -> sec-fetch-dest image
+2020-09-15 16:38:42.9595 INFO {RequestBody} -> 
+2020-09-15 16:38:51.9555 INFO Request {URL} -> POST localhost:5001 /oauth2/api/v1/token ?grant_type=client_credentials
+2020-09-15 16:38:51.9964 INFO Request {More info} {Protocol} -> HTTP/1.1, {ContentType} -> application/json 
+2020-09-15 16:38:52.0344 DEBUG HEATHER -> Connection keep-alive
+2020-09-15 16:38:52.0711 DEBUG HEATHER -> Content-Type application/json
+2020-09-15 16:38:52.1066 DEBUG HEATHER -> Accept */*
+2020-09-15 16:38:52.1436 DEBUG HEATHER -> Accept-Encoding gzip, deflate, br
+2020-09-15 16:38:52.1821 DEBUG HEATHER -> Authorization Basic MDQxMDY3YzMtZjdlMS0zMzU5LTkzOTUtM2JkYzJhMTcxNzhlOnVUd28ya3EwUFQ1MThpNHNOMC1mdjkwS3NHbUZBbUdRQ21oT1ZfZnNrd3ZWS0lERHU4TGpXWjc3UEp0a1o2aFA=
+2020-09-15 16:38:52.2192 DEBUG HEATHER -> Host localhost:5001
+2020-09-15 16:38:52.2567 DEBUG HEATHER -> User-Agent MATAR_TEST
+2020-09-15 16:38:52.2959 DEBUG HEATHER -> Content-Length 35
+2020-09-15 16:38:52.3321 DEBUG HEATHER -> content-transfer-encoding 8bit
+2020-09-15 16:38:52.3687 DEBUG HEATHER -> Postman-Token e08daf21-0906-4ab6-940d-1ba17d5bf746
+2020-09-15 16:38:52.4057 INFO {RequestBody} -> {
+    "davidkey" : "davidvalue"
+}
+2020-09-15 16:41:33.9617 INFO Information is logged
+2020-09-15 16:41:34.0926 INFO Request {URL} -> GET localhost:5001 /weatherforecast 
+2020-09-15 16:41:34.1245 INFO Request {More info} {Protocol} -> HTTP/2, {ContentType} ->  
+2020-09-15 16:41:34.1559 DEBUG HEATHER -> Cache-Control no-cache
+2020-09-15 16:41:34.1860 DEBUG HEATHER -> Pragma no-cache
+2020-09-15 16:41:34.2147 DEBUG HEATHER -> Accept text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+2020-09-15 16:41:34.2430 DEBUG HEATHER -> Accept-Encoding gzip, deflate, br
+2020-09-15 16:41:34.2736 DEBUG HEATHER -> Accept-Language en-US,en;q=0.9
+2020-09-15 16:41:34.3042 DEBUG HEATHER -> Host localhost:5001
+2020-09-15 16:41:34.3396 DEBUG HEATHER -> User-Agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36
+2020-09-15 16:41:34.3689 DEBUG HEATHER -> Upgrade-Insecure-Requests 1
+2020-09-15 16:41:34.3993 DEBUG HEATHER -> :method GET
+2020-09-15 16:41:34.4281 DEBUG HEATHER -> :authority localhost:5001
+2020-09-15 16:41:34.4574 DEBUG HEATHER -> :scheme https
+2020-09-15 16:41:34.4872 DEBUG HEATHER -> :path /weatherforecast
+2020-09-15 16:41:34.5169 DEBUG HEATHER -> sec-fetch-site none
+2020-09-15 16:41:34.5461 DEBUG HEATHER -> sec-fetch-mode navigate
+2020-09-15 16:41:34.5767 DEBUG HEATHER -> sec-fetch-user ?1
+2020-09-15 16:41:34.6199 DEBUG HEATHER -> sec-fetch-dest document
+2020-09-15 16:41:34.6524 INFO {RequestBody} -> 
+2020-09-15 16:41:34.7184 INFO Request {URL} -> GET localhost:5001 /favicon.ico 
+2020-09-15 16:41:34.7494 INFO Request {More info} {Protocol} -> HTTP/2, {ContentType} ->  
+2020-09-15 16:41:34.7805 DEBUG HEATHER -> Cache-Control no-cache
+2020-09-15 16:41:34.8111 DEBUG HEATHER -> Pragma no-cache
+2020-09-15 16:41:34.8412 DEBUG HEATHER -> Accept image/avif,image/webp,image/apng,image/*,*/*;q=0.8
+2020-09-15 16:41:34.8692 DEBUG HEATHER -> Accept-Encoding gzip, deflate, br
+2020-09-15 16:41:34.8973 DEBUG HEATHER -> Accept-Language en-US,en;q=0.9
+2020-09-15 16:41:34.9248 DEBUG HEATHER -> Host localhost:5001
+2020-09-15 16:41:34.9546 DEBUG HEATHER -> Referer https://localhost:5001/weatherforecast
+2020-09-15 16:41:34.9843 DEBUG HEATHER -> User-Agent Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36
+2020-09-15 16:41:35.0130 DEBUG HEATHER -> :method GET
+2020-09-15 16:41:35.0435 DEBUG HEATHER -> :authority localhost:5001
+2020-09-15 16:41:35.0732 DEBUG HEATHER -> :scheme https
+2020-09-15 16:41:35.1023 DEBUG HEATHER -> :path /favicon.ico
+2020-09-15 16:41:35.1304 DEBUG HEATHER -> sec-fetch-site same-origin
+2020-09-15 16:41:35.1599 DEBUG HEATHER -> sec-fetch-mode no-cors
+2020-09-15 16:41:35.1902 DEBUG HEATHER -> sec-fetch-dest image
+2020-09-15 16:41:35.2200 INFO {RequestBody} -> 
+2020-09-15 16:41:36.5970 INFO Request {URL} -> POST localhost:5001 /oauth2/api/v1/token ?grant_type=client_credentials
+2020-09-15 16:41:36.6430 INFO Request {More info} {Protocol} -> HTTP/1.1, {ContentType} -> multipart/form-data; boundary=--------------------------837294016813953370625837 
+2020-09-15 16:41:36.6797 DEBUG HEATHER -> Connection keep-alive
+2020-09-15 16:41:36.7180 DEBUG HEATHER -> Content-Type multipart/form-data; boundary=--------------------------837294016813953370625837
+2020-09-15 16:41:36.7555 DEBUG HEATHER -> Accept */*
+2020-09-15 16:41:36.7917 DEBUG HEATHER -> Accept-Encoding gzip, deflate, br
+2020-09-15 16:41:36.8285 DEBUG HEATHER -> Authorization Basic MDQxMDY3YzMtZjdlMS0zMzU5LTkzOTUtM2JkYzJhMTcxNzhlOnVUd28ya3EwUFQ1MThpNHNOMC1mdjkwS3NHbUZBbUdRQ21oT1ZfZnNrd3ZWS0lERHU4TGpXWjc3UEp0a1o2aFA=
+2020-09-15 16:41:36.8662 DEBUG HEATHER -> Host localhost:5001
+2020-09-15 16:41:36.9038 DEBUG HEATHER -> User-Agent MATAR_TEST
+2020-09-15 16:41:36.9408 DEBUG HEATHER -> Content-Length 173
+2020-09-15 16:41:36.9795 DEBUG HEATHER -> content-transfer-encoding 8bit
+2020-09-15 16:41:37.0167 DEBUG HEATHER -> Postman-Token c4f98255-e72a-4086-8daf-627c31adb1f6
+2020-09-15 16:41:37.0548 INFO {RequestBody} -> ----------------------------837294016813953370625837
+Content-Disposition: form-data; name="davidkey"
+
+davidvalue
+----------------------------837294016813953370625837--
+
+2020-09-15 16:42:07.2437 INFO Request {URL} -> POST localhost:5001 /oauth2/api/v1/token ?grant_type=client_credentials
+2020-09-15 16:42:07.2907 INFO Request {More info} {Protocol} -> HTTP/1.1, {ContentType} -> multipart/form-data; boundary=--------------------------157356444690650196073410 
+2020-09-15 16:42:07.3245 DEBUG HEATHER -> Connection keep-alive
+2020-09-15 16:42:07.3572 DEBUG HEATHER -> Content-Type multipart/form-data; boundary=--------------------------157356444690650196073410
+2020-09-15 16:42:07.3924 DEBUG HEATHER -> Accept */*
+2020-09-15 16:42:07.4247 DEBUG HEATHER -> Accept-Encoding gzip, deflate, br
+2020-09-15 16:42:07.4576 DEBUG HEATHER -> Authorization Basic MDQxMDY3YzMtZjdlMS0zMzU5LTkzOTUtM2JkYzJhMTcxNzhlOnVUd28ya3EwUFQ1MThpNHNOMC1mdjkwS3NHbUZBbUdRQ21oT1ZfZnNrd3ZWS0lERHU4TGpXWjc3UEp0a1o2aFA=
+2020-09-15 16:42:07.4908 DEBUG HEATHER -> Host localhost:5001
+2020-09-15 16:42:07.5239 DEBUG HEATHER -> User-Agent MATAR_TEST
+2020-09-15 16:42:07.5578 DEBUG HEATHER -> Content-Length 173
+2020-09-15 16:42:07.5933 DEBUG HEATHER -> content-transfer-encoding 8bit
+2020-09-15 16:42:07.6266 DEBUG HEATHER -> Postman-Token f2536220-d994-4e12-883b-196ff86e0dbe
+2020-09-15 16:42:07.6600 INFO {RequestBody} -> ----------------------------157356444690650196073410
+Content-Disposition: form-data; name="davidkey"
+
+davidvalue
+----------------------------157356444690650196073410--
+
